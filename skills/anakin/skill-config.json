@@ -1,0 +1,9 @@
+{
+  "name": "anakin-docs-skill",
+  "description": "Provides Anakin.io documentation and scraping API knowledge to the assistant.",
+  "source": "./llms-full.txt",
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "embedding_model": "text-embedding-3-small",
+  "retrieval_top_k": 5
+}
